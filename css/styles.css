@@ -14,9 +14,11 @@ element.style {
     display: block;
     height: 5%;
     width: 6%;
-    border-radius: 15%;
-
-    padding-bottom: 2%;
+    border-radius: 5%;
+    border-style: solid;
+    border-width: 2px;
+        border-color: black;
+    padding-bottom: 4%;
     padding-left: 15%;
     background: #94b394;
     position: relative;
@@ -28,13 +30,15 @@ element.style {
 
 .circle {
     position: absolute;
-    margin-top: -5%;
-
+    margin-top: -12%;
+    border-style: solid;
+border-width: 2px;
+    border-color: black;
     border-radius: 50%;
-    width: 15%;
-    height: 23%;
+    width: 27%;
+    height: 35%;
     /*padding-top: 2rem;*/
-    left: 40%;
+    left: 37%;
 
     background: white;
 }
@@ -49,6 +53,7 @@ element.style {
 
 #header {
     padding-top: 55%;
+    padding-bottom: 25%;
     margin-left: -195%;
     font-size: 2.25vw;
     margin-bottom: 5px;
@@ -61,4 +66,46 @@ element.style {
     margin-left: -195%;
     font-size: 1.2vw;
     margin-right: 2%;
+}
+
+.svg{
+    position: absolute;
+    top: 13%;
+    left: 18%;
+    width: 70%;
+}
+
+.button{
+    
+        position: absolute;
+        display: inline-block;
+        vertical-align: middle;
+            height: 12%;
+            width: 30%;
+            font-size: 1vw;
+            border-radius: 15px;
+            background: #e6e6e6;
+    padding-top: 2%;
+        padding-left: 2%;
+        border-style: solid;
+        border-width: 1.5px;
+            left: 10%;
+            margin-left: 0%;
+}
+.button1 {
+
+    position: absolute;
+
+    vertical-align: middle;
+    height: 12%;
+    width: 30%;
+    font-size: 1vw;
+    border-radius: 15px;
+    background: #e6e6e6;
+    padding-top: 2%;
+    padding-left: 2%;
+    left: 60%;
+    border-style: solid;
+    border-width: 1.5px;
+    margin-left: 0%;
 }

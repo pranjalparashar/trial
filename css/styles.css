@@ -52,12 +52,14 @@ border-width: 2px;
 }
 
 #header {
-    padding-top: 55%;
+    padding-top: 50%;
     padding-bottom: 25%;
-    margin-left: -195%;
-    font-size: 2.25vw;
+    margin-left: -198%;
+    padding-right: 60%;
+    font-size: 1.8vw;
+    text-align: center;
     margin-bottom: 5px;
-
+    ;
 }
 
 #header1 {
